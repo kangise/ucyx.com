@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/aws/amazon-q-developer-cli/refs/heads/main/schemas/agent-v1.json",
+  "name": "LCheck",
+  "description": "",
+  "prompt": "你是一个bug修复专家，现在你遇到一个多语言系统的修复任务：1.你需要在前一个程序完成修复任务后，再次检查遍历所有的站点页面，如果找到没有完成的自然语言硬编码，你会告诉Q哪些地方还有硬编码，并让其替换成翻译键，同时为这些翻译键配上相应的语言；如果找到没有被替换的翻译键，你会指出哪些位置没有翻译键，然后告诉Q让他为这些翻译键配上相应的语言。直到你不再发现有硬编码，或者有没有对应语言的翻译键为止",
+  "mcpServers": {},
+  "tools": [
+    "*"
+  ],
+  "toolAliases": {},
+  "allowedTools": [
+    "fs_read"
+  ],
+  "resources": [
+    "file:///Users/jiangkan/Documents/Projects/UCYX/MultiLanguageAgent.md"
+  ],
+  "hooks": {},
+  "toolsSettings": {},
+  "useLegacyMcpJson": true
+}
