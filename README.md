@@ -13,7 +13,7 @@ A comprehensive multi-language e-commerce platform built with React, TypeScript,
 
 ## 🚀 Live Demo
 
-🔗 **[Visit UCYX Platform](https://your-vercel-url.vercel.app)**
+🔗 **[Visit UCYX Platform](https://ucyx-com.vercel.app)**
 
 ## 🛠️ Tech Stack
 
@@ -28,10 +28,10 @@ A comprehensive multi-language e-commerce platform built with React, TypeScript,
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/ucyx-platform.git
+git clone https://github.com/kangise/ucyx.com.git
 
 # Navigate to project directory
-cd ucyx-platform
+cd ucyx.com
 
 # Install dependencies
 npm install
