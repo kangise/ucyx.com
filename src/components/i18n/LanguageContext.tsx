@@ -130,7 +130,7 @@ const enTranslations = {
     backToHome: 'Back to Home'
   },
   hero: {
-    title: 'AI-Driven Global E-commerce Growth',
+    title: 'You See Your X-traordinary',
     subtitle: 'Transform Your Business with Data-Powered Cross-Border Commerce Solutions',
     description: 'UCYX empowers global brands to achieve exponential growth through our proprietary AI tools and proven 4-step methodology. From market intelligence to sales optimization, we turn data into revenue.',
     cta: 'Start Your Growth Journey',
@@ -1275,7 +1275,7 @@ const zhTranslations = {
     backToHome: '返回首页'
   },
   hero: {
-    title: 'AI驱动的全球电商增长',
+    title: '你看见你的非凡',
     subtitle: '通过数据驱动的跨境电商解决方案转型您的业务',
     description: 'UCYX通过我们专有的AI工具和经过验证的4步方法论，帮助全球品牌实现指数级增长。从市场情报到销售优化，我们将数据转化为收入。',
     cta: '开始您的增长之旅',
@@ -2411,7 +2411,7 @@ const zhTwTranslations = {
     backToHome: '返回首頁'
   },
   hero: {
-    title: 'AI驅動的全球電商增長',
+    title: '你看見你的非凡',
     subtitle: '透過數據驅動的跨境電商解決方案轉型您的業務',
     description: 'UCYX透過我們專有的AI工具和經過驗證的4步方法論，幫助全球品牌實現指數級增長。從市場情報到銷售優化，我們將數據轉化為收入。',
     cta: '開始您的增長之旅',
@@ -3457,7 +3457,7 @@ const jaTranslations = {
     backToHome: 'ホームに戻る'
   },
   hero: {
-    title: 'AI主導のグローバルEコマース成長',
+    title: 'あなたの非凡を見つけよう',
     subtitle: 'データ駆動型クロスボーダー コマースソリューションでビジネスを変革',
     description: 'UCYXは独自のAIツールと実証済みの4ステップ方法論を通じて、グローバルブランドの指数関数的成長を支援します。市場インテリジェンスから販売最適化まで、データを収益に変換します。',
     cta: '成長の旅を始める',
@@ -4503,7 +4503,7 @@ const koTranslations = {
     backToHome: '홈으로 돌아가기'
   },
   hero: {
-    title: 'AI 주도 글로벌 이커머스 성장',
+    title: '당신의 특별함을 발견하세요',
     subtitle: '데이터 기반 크로스보더 커머스 솔루션으로 비즈니스를 변화시키세요',
     description: 'UCYX는 독점적인 AI 도구와 검증된 4단계 방법론을 통해 글로벌 브랜드의 기하급수적 성장을 지원합니다. 시장 인텔리전스부터 판매 최적화까지, 데이터를 수익으로 전환합니다.',
     cta: '성장 여정 시작하기',
