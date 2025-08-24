@@ -339,33 +339,33 @@ const enTranslations = {
   },
   ai: {
     title: 'Meet Novochoice™',
-    subtitle: 'Your AI-Powered Growth Partner',
-    description: 'Our proprietary AI platform combines market intelligence, predictive analytics, and automated optimization to drive unprecedented growth in global markets.',
+    subtitle: 'Your AI-Powered Consumer Insight Partner',
+    description: 'Our proprietary AI platform transforms customer feedback into actionable business intelligence, helping you understand what customers truly want and how to deliver it better than your competitors.',
     accessPlatform: 'Access Novochoice Platform',
-    badgeText: 'AI-POWERED MARKET INTELLIGENCE',
+    badgeText: 'AI-POWERED CONSUMER INTELLIGENCE',
     coreCapabilities: 'Core Capabilities',
     capabilities: {
-      globalMarkets: 'Market opportunity analysis across 247 global markets',
-      nicheDiscovery: 'Niche market discovery with competition scoring',
-      reviewAnalysis: 'Customer review sentiment analysis for gap identification',
-      predictiveForecasting: 'Predictive sales forecasting with 94% accuracy'
+      globalMarkets: 'Customer feedback analysis across all major e-commerce platforms',
+      nicheDiscovery: 'Product feature importance discovery with competitive benchmarking',
+      reviewAnalysis: 'Deep customer sentiment analysis to uncover hidden needs',
+      predictiveForecasting: 'Purchase decision modeling with feature impact scoring'
     },
     dataPoints: {
-      marketDatasets: 'Market Datasets',
-      nicheMarkets: 'Niche Markets',
-      successRate: 'Success Rate',
+      marketDatasets: 'Review Datasets',
+      nicheMarkets: 'Product Categories',
+      successRate: 'Insight Accuracy',
       activeInsights: 'Active Insights'
     },
     dashboard: {
       title: 'NOVOCHOICE DASHBOARD',
-      scanning: 'Scanning global marketplaces...',
-      processing: 'Processing 2.4M product listings...',
-      analyzing: '⟨ Analyzing customer reviews... ⟩',
-      analysisComplete: 'Market analysis complete',
-      opportunitiesFound: '147 opportunities identified',
-      reviewAnalysisComplete: 'Review analysis: 23 unmet needs found',
-      liveInsights: 'LIVE MARKET INSIGHTS',
-      score: 'Score',
+      scanning: 'Analyzing customer reviews...',
+      processing: 'Processing 2.4M customer feedback entries...',
+      analyzing: '⟨ Mapping features to customer needs... ⟩',
+      analysisComplete: 'Consumer insight analysis complete',
+      opportunitiesFound: '147 improvement opportunities identified',
+      reviewAnalysisComplete: 'Hidden needs analysis: 23 unmet desires discovered',
+      liveInsights: 'LIVE CONSUMER INSIGHTS',
+      score: 'Impact Score',
       aiModels: 'AI Models',
       accuracy: 'Accuracy',
       monitoring: 'Monitoring',
@@ -373,24 +373,24 @@ const enTranslations = {
     },
     features: {
       intelligence: {
-        title: 'Market Intelligence',
-        description: 'Real-time market analysis and competitor insights',
-        details: 'Analyze market size, growth trends, competition levels, and pricing strategies'
+        title: 'Consumer Intelligence',
+        description: 'Transform customer feedback into strategic advantages',
+        details: 'Understand what features matter most to your customers and how you compare to competitors'
       },
       optimization: {
-        title: 'Sales Optimization',
-        description: 'AI-driven performance enhancement and automation',
-        details: 'Identify profitable niches with low competition and high demand potential'
+        title: 'Feature Optimization',
+        description: 'Prioritize product improvements based on customer impact',
+        details: 'Focus your resources on high-impact features that drive purchase decisions'
       },
       forecasting: {
-        title: 'Predictive Forecasting',
-        description: 'Advanced analytics for strategic planning',
-        details: 'Process millions of reviews to identify gaps in current market offerings'
+        title: 'Hidden Needs Discovery',
+        description: 'Uncover unexpressed customer desires and market gaps',
+        details: 'Identify opportunities your competitors haven\'t discovered yet through advanced sentiment analysis'
       },
       automation: {
-        title: 'Smart Automation',
-        description: 'Streamlined operations and workflow optimization',
-        details: 'Forecast demand, pricing optimization, and inventory requirements'
+        title: 'Competitive Benchmarking',
+        description: 'See exactly where you lead and where you need to catch up',
+        details: 'Get precise feature-by-feature comparison with market leaders based on real customer feedback'
       }
     }
   },
@@ -1484,58 +1484,58 @@ const zhTranslations = {
   },
   ai: {
     title: '认识Novochoice™',
-    subtitle: '你的AI驱动的成長夥伴',
-    description: '我们的专有AI平台结合了市场情报、预测分析，和自动化优化，以驱动在全球市场中的前所未有的增长。',
-    accessPlatform: '存取Novochoice平台',
-    badgeText: 'AI驱动的市场情报',
+    subtitle: '您的AI驱动消费者洞察伙伴',
+    description: '我们的专有AI平台将客户反馈转化为可执行的商业智能，帮助您了解客户真正想要什么，以及如何比竞争对手更好地满足他们。',
+    accessPlatform: '访问Novochoice平台',
+    badgeText: 'AI驱动的消费者智能',
     coreCapabilities: '核心能力',
     capabilities: {
-      globalMarkets: '在247个全球市场中的市场机会分析',
-      nicheDiscovery: '通过竞争评分进行的利基市场探索',
-      reviewAnalysis: '针对识别空缺的客户评论情感分析',
-      predictiveForecasting: '94%准确度的预测性销售预测'
+      globalMarkets: '跨所有主要电商平台的客户反馈分析',
+      nicheDiscovery: '产品特征重要性发现与竞争基准对比',
+      reviewAnalysis: '深度客户情感分析，挖掘隐藏需求',
+      predictiveForecasting: '购买决策建模与特征影响评分'
     },
     dataPoints: {
-      marketDatasets: '市场数据集',
-      nicheMarkets: '利基市场',
-      successRate: '成功率',
-      activeInsights: '活跃的洞察'
+      marketDatasets: '评论数据集',
+      nicheMarkets: '产品类别',
+      successRate: '洞察准确率',
+      activeInsights: '活跃洞察'
     },
     dashboard: {
-      title: 'NOVOCHOICE的仪表板',
-      scanning: '扫描全球市场...',
-      processing: '处理240万个产品列表...',
-      analyzing: '⟨分析客户评论...⟩',
-      analysisComplete: '市场分析完成',
-      opportunitiesFound: '发现147个机会',
-      reviewAnalysisComplete: '评论分析：发现23个未满足的需求',
-      liveInsights: '实时市场洞察',
-      score: '分数',
+      title: 'NOVOCHOICE仪表板',
+      scanning: '分析客户评论中...',
+      processing: '处理240万条客户反馈...',
+      analyzing: '⟨将特征映射到客户需求...⟩',
+      analysisComplete: '消费者洞察分析完成',
+      opportunitiesFound: '识别出147个改进机会',
+      reviewAnalysisComplete: '隐藏需求分析：发现23个未满足的愿望',
+      liveInsights: '实时消费者洞察',
+      score: '影响评分',
       aiModels: 'AI模型',
-      accuracy: '精度',
+      accuracy: '准确率',
       monitoring: '监控',
       active: '活跃'
     },
     features: {
       intelligence: {
-        title: '市场情报',
-        description: '实时市场分析和竞争者洞察',
-        details: '分析市场规模、增长趋势、竞争程度、价格策略'
+        title: '消费者智能',
+        description: '将客户反馈转化为战略优势',
+        details: '了解哪些特征对客户最重要，以及您与竞争对手的比较情况'
       },
       optimization: {
-        title: '销售优化',
-        description: 'AI驱动的性能促进和自动化',
-        details: '识别低竞争且高需求潜力的盈利利基市场'
+        title: '特征优化',
+        description: '基于客户影响优先考虑产品改进',
+        details: '将资源集中在推动购买决策的高影响特征上'
       },
       forecasting: {
-        title: '预测分析',
-        description: '战略规划的高级分析',
-        details: '处理数百万条评论以识别当前市场存在的空缺'
+        title: '隐藏需求发现',
+        description: '挖掘未表达的客户愿望和市场空白',
+        details: '通过高级情感分析识别竞争对手尚未发现的机会'
       },
       automation: {
-        title: '智慧自动化',
-        description: '合理化的运营和工作流程',
-        details: '预测需求、价格优化、库存需求'
+        title: '竞争基准对比',
+        description: '准确了解您的领先之处和需要追赶的地方',
+        details: '基于真实客户反馈获得与市场领导者的精确特征对比'
       }
     }
   },
@@ -2620,58 +2620,58 @@ const zhTwTranslations = {
   },
   ai: {
     title: '認識Novochoice™',
-    subtitle: '你的AI驅動的成長夥伴',
-    description: '我們的專有AI平台結合了市場情報、預測分析，和自動化優化，以驅動在全球市場的前所未有的增長。',
-    accessPlatform: '存取Novochoice平台',
-    badgeText: 'AI驅動的市場情報',
+    subtitle: '您的AI驅動消費者洞察夥伴',
+    description: '我們的專有AI平台將客戶反饋轉化為可執行的商業智能，幫助您了解客戶真正想要什麼，以及如何比競爭對手更好地滿足他們。',
+    accessPlatform: '訪問Novochoice平台',
+    badgeText: 'AI驅動的消費者智能',
     coreCapabilities: '核心能力',
     capabilities: {
-      globalMarkets: '在247個全球市場的市場機會分析',
-      nicheDiscovery: '透過競爭評分進行的利基市場探索',
-      reviewAnalysis: '針對識別空缺的顧客評論情感分析',
-      predictiveForecasting: '94%準確度的預測性銷售預測'
+      globalMarkets: '跨所有主要電商平台的客戶反饋分析',
+      nicheDiscovery: '產品特徵重要性發現與競爭基準對比',
+      reviewAnalysis: '深度客戶情感分析，挖掘隱藏需求',
+      predictiveForecasting: '購買決策建模與特徵影響評分'
     },
     dataPoints: {
-      marketDatasets: '市場數據集',
-      nicheMarkets: '利基市場',
-      successRate: '成功率',
-      activeInsights: '活躍的洞察'
+      marketDatasets: '評論數據集',
+      nicheMarkets: '產品類別',
+      successRate: '洞察準確率',
+      activeInsights: '活躍洞察'
     },
     dashboard: {
-      title: 'NOVOCHOICE的儀表板',
-      scanning: '掃描全球市場...',
-      processing: '處理240萬個產品列表...',
-      analyzing: '⟨分析顧客評論...⟩',
-      analysisComplete: '市場分析完成',
-      opportunitiesFound: '發現147個機會',
-      reviewAnalysisComplete: '評論分析：發現23个未滿足的需求',
-      liveInsights: '即時市場洞察',
-      score: '分數',
+      title: 'NOVOCHOICE儀表板',
+      scanning: '分析客戶評論中...',
+      processing: '處理240萬條客戶反饋...',
+      analyzing: '⟨將特徵映射到客戶需求...⟩',
+      analysisComplete: '消費者洞察分析完成',
+      opportunitiesFound: '識別出147個改進機會',
+      reviewAnalysisComplete: '隱藏需求分析：發現23個未滿足的願望',
+      liveInsights: '即時消費者洞察',
+      score: '影響評分',
       aiModels: 'AI模型',
-      accuracy: '準確度',
+      accuracy: '準確率',
       monitoring: '監控',
       active: '活躍'
     },
     features: {
       intelligence: {
-        title: '市場情報',
-        description: '即時市場分析和競爭者洞察',
-        details: '分析市場規模、增長趨勢、競爭步驟、價格策略'
+        title: '消費者智能',
+        description: '將客戶反饋轉化為戰略優勢',
+        details: '了解哪些特徵對客戶最重要，以及您與競爭對手的比較情況'
       },
       optimization: {
-        title: '銷售優化',
-        description: 'AI驅動型性能促進和自動化',
-        details: '識別低競爭且高需求潛力的盈利利基市場'
+        title: '特徵優化',
+        description: '基於客戶影響優先考慮產品改進',
+        details: '將資源集中在推動購買決策的高影響特徵上'
       },
       forecasting: {
-        title: '預測分析',
-        description: '戰略規劃的高級分析',
-        details: '處理數百萬個評論以識別當前市場存在的空缺'
+        title: '隱藏需求發現',
+        description: '挖掘未表達的客戶願望和市場空白',
+        details: '通過高級情感分析識別競爭對手尚未發現的機會'
       },
       automation: {
-        title: '智慧自動化',
-        description: '最佳化的運營和工作流程',
-        details: '預測需求、優化價格與庫存需求'
+        title: '競爭基準對比',
+        description: '準確了解您的領先之處和需要追趕的地方',
+        details: '基於真實客戶反饋獲得與市場領導者的精確特徵對比'
       }
     }
   },
@@ -3666,33 +3666,33 @@ const jaTranslations = {
   },
   ai: {
     title: 'Novochoice™に会いましょう',
-    subtitle: 'あなたのAI駆動型成長パートナー',
-    description: '私たちの独自のAIプラットフォームは、市場インテリジェンス、予測分析、自動最適化を組み合わせて、グローバル市場で前例のない成長を推進します。',
+    subtitle: 'あなたのAI駆動型消費者インサイトパートナー',
+    description: '私たちの独自のAIプラットフォームは、顧客フィードバックを実行可能なビジネスインテリジェンスに変換し、顧客が本当に求めているものと、競合他社よりも優れた提供方法を理解するお手伝いをします。',
     accessPlatform: 'Novochoiceプラットフォームにアクセス',
-    badgeText: 'AI駆動型市場インテリジェンス',
+    badgeText: 'AI駆動型消費者インテリジェンス',
     coreCapabilities: 'コア機能',
     capabilities: {
-      globalMarkets: '247のグローバル市場にわたる市場機会分析',
-      nicheDiscovery: '競争スコアリングによるニッチ市場発見',
-      reviewAnalysis: 'ギャップ特定のための顧客レビュー感情分析',
-      predictiveForecasting: '94%の精度での予測売上予測'
+      globalMarkets: '全ての主要Eコマースプラットフォームでの顧客フィードバック分析',
+      nicheDiscovery: '競合ベンチマークによる製品特徴重要度発見',
+      reviewAnalysis: '隠れたニーズを発見する深層顧客感情分析',
+      predictiveForecasting: '特徴影響スコアリングによる購買決定モデリング'
     },
     dataPoints: {
-      marketDatasets: '市場データセット',
-      nicheMarkets: 'ニッチ市場',
-      successRate: '成功率',
+      marketDatasets: 'レビューデータセット',
+      nicheMarkets: '製品カテゴリー',
+      successRate: 'インサイト精度',
       activeInsights: 'アクティブインサイト'
     },
     dashboard: {
       title: 'NOVOCHOICEダッシュボード',
-      scanning: 'グローバルマーケットプレイスをスキャン中...',
-      processing: '240万の製品リストを処理中...',
-      analyzing: '⟨ 顧客レビューを分析中... ⟩',
-      analysisComplete: '市場分析完了',
-      opportunitiesFound: '147の機会を特定',
-      reviewAnalysisComplete: 'レビュー分析：23の未満足ニーズを発見',
-      liveInsights: 'ライブ市場インサイト',
-      score: 'スコア',
+      scanning: '顧客レビューを分析中...',
+      processing: '240万件の顧客フィードバックを処理中...',
+      analyzing: '⟨ 特徴を顧客ニーズにマッピング中... ⟩',
+      analysisComplete: '消費者インサイト分析完了',
+      opportunitiesFound: '147の改善機会を特定',
+      reviewAnalysisComplete: '隠れたニーズ分析：23の未満足な願望を発見',
+      liveInsights: 'ライブ消費者インサイト',
+      score: 'インパクトスコア',
       aiModels: 'AIモデル',
       accuracy: '精度',
       monitoring: 'モニタリング',
@@ -3700,24 +3700,24 @@ const jaTranslations = {
     },
     features: {
       intelligence: {
-        title: '市場インテリジェンス',
-        description: 'リアルタイム市場分析と競合洞察',
-        details: '市場規模、成長トレンド、競争レベル、価格戦略を分析'
+        title: '消費者インテリジェンス',
+        description: '顧客フィードバックを戦略的優位性に変換',
+        details: '顧客にとって最も重要な特徴と競合他社との比較を理解'
       },
       optimization: {
-        title: '販売最適化',
-        description: 'AI駆動型パフォーマンス向上と自動化',
-        details: '低競争と高需要ポテンシャルの収益性のあるニッチを特定'
+        title: '特徴最適化',
+        description: '顧客インパクトに基づく製品改善の優先順位付け',
+        details: '購買決定を促進する高インパクト特徴にリソースを集中'
       },
       forecasting: {
-        title: '予測分析',
-        description: '戦略的計画を支援する高度な分析',
-        details: '数百万のレビューを処理して現在の市場提供のギャップを特定'
+        title: '隠れたニーズ発見',
+        description: '未表現の顧客願望と市場ギャップを発見',
+        details: '高度感情分析により競合他社がまだ発見していない機会を特定'
       },
       automation: {
-        title: 'スマート自動化',
-        description: '合理化された運営とワークフロー最適化',
-        details: '需要予測、価格最適化、在庫要件'
+        title: '競合ベンチマーキング',
+        description: 'リードしている分野と追いつく必要がある分野を正確に把握',
+        details: '実際の顧客フィードバックに基づく市場リーダーとの精密な特徴別比較'
       }
     }
   },
@@ -4712,33 +4712,33 @@ const koTranslations = {
   },
   ai: {
     title: 'Novochoice™를 만나보세요',
-    subtitle: '당신의 AI 기반 성장 파트너',
-    description: '우리의 독점 AI 플랫폼은 시장 인텔리전스, 예측 분석, 자동 최적화를 결합하여 글로벌 시장에서 전례 없는 성장을 이끕니다.',
+    subtitle: '당신의 AI 기반 소비자 인사이트 파트너',
+    description: '우리의 독점 AI 플랫폼은 고객 피드백을 실행 가능한 비즈니스 인텔리전스로 변환하여, 고객이 진정으로 원하는 것과 경쟁사보다 더 나은 서비스 제공 방법을 이해하도록 도와드립니다.',
     accessPlatform: 'Novochoice 플랫폼 접근',
-    badgeText: 'AI 기반 시장 인텔리전스',
+    badgeText: 'AI 기반 소비자 인텔리전스',
     coreCapabilities: '핵심 역량',
     capabilities: {
-      globalMarkets: '247개 글로벌 시장의 시장 기회 분석',
-      nicheDiscovery: '경쟁 점수와 함께하는 틈새 시장 발견',
-      reviewAnalysis: '격차 식별을 위한 고객 리뷰 감정 분석',
-      predictiveForecasting: '94% 정확도의 예측 판매 예측'
+      globalMarkets: '모든 주요 이커머스 플랫폼의 고객 피드백 분석',
+      nicheDiscovery: '경쟁 벤치마킹을 통한 제품 특성 중요도 발견',
+      reviewAnalysis: '숨겨진 니즈를 발견하는 심층 고객 감정 분석',
+      predictiveForecasting: '특성 영향 점수를 통한 구매 결정 모델링'
     },
     dataPoints: {
-      marketDatasets: '시장 데이터셋',
-      nicheMarkets: '틈새 시장',
-      successRate: '성공률',
+      marketDatasets: '리뷰 데이터셋',
+      nicheMarkets: '제품 카테고리',
+      successRate: '인사이트 정확도',
       activeInsights: '활성 인사이트'
     },
     dashboard: {
       title: 'NOVOCHOICE 대시보드',
-      scanning: '글로벌 마켓플레이스 스캔 중...',
-      processing: '240만 개 제품 목록 처리 중...',
-      analyzing: '⟨ 고객 리뷰 분석 중... ⟩',
-      analysisComplete: '시장 분석 완료',
-      opportunitiesFound: '147개 기회 식별',
-      reviewAnalysisComplete: '리뷰 분석: 23개 미충족 니즈 발견',
-      liveInsights: '실시간 시장 인사이트',
-      score: '점수',
+      scanning: '고객 리뷰 분석 중...',
+      processing: '240만 건의 고객 피드백 처리 중...',
+      analyzing: '⟨ 특성을 고객 니즈에 매핑 중... ⟩',
+      analysisComplete: '소비자 인사이트 분석 완료',
+      opportunitiesFound: '147개 개선 기회 식별',
+      reviewAnalysisComplete: '숨겨진 니즈 분석: 23개 미충족 욕구 발견',
+      liveInsights: '실시간 소비자 인사이트',
+      score: '영향 점수',
       aiModels: 'AI 모델',
       accuracy: '정확도',
       monitoring: '모니터링',
@@ -4746,24 +4746,24 @@ const koTranslations = {
     },
     features: {
       intelligence: {
-        title: '시장 인텔리전스',
-        description: '실시간 시장 분석과 경쟁사 인사이트',
-        details: '시장 규모, 성장 트렌드, 경쟁 수준, 가격 전략 분석'
+        title: '소비자 인텔리전스',
+        description: '고객 피드백을 전략적 우위로 변환',
+        details: '고객에게 가장 중요한 특성과 경쟁사와의 비교 상황 이해'
       },
       optimization: {
-        title: '판매 최적화',
-        description: 'AI 기반 성능 향상과 자동화',
-        details: '낮은 경쟁과 높은 수요 잠재력의 수익성 있는 틈새 식별'
+        title: '특성 최적화',
+        description: '고객 영향을 기반으로 한 제품 개선 우선순위 설정',
+        details: '구매 결정을 촉진하는 고영향 특성에 리소스 집중'
       },
       forecasting: {
-        title: '예측 분석',
-        description: '전략적 계획을 위한 고급 분석',
-        details: '수백만 개의 리뷰를 처리하여 현재 시장 제공의 격차 식별'
+        title: '숨겨진 니즈 발견',
+        description: '표현되지 않은 고객 욕구와 시장 공백 발견',
+        details: '고급 감정 분석을 통해 경쟁사가 아직 발견하지 못한 기회 식별'
       },
       automation: {
-        title: '스마트 자동화',
-        description: '간소화된 운영과 워크플로우 최적화',
-        details: '수요 예측, 가격 최적화, 재고 요구사항'
+        title: '경쟁 벤치마킹',
+        description: '리드하는 영역과 따라잡아야 할 영역을 정확히 파악',
+        details: '실제 고객 피드백을 기반으로 한 시장 리더와의 정밀한 특성별 비교'
       }
     }
   },
