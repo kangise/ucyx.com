@@ -15,6 +15,22 @@ export function Header() {
   const { currentPage, navigateTo } = useRouter();
   const { t } = useLanguage();
 
+  const scrollToContactForm = () => {
+    // If not on home page, navigate to home first
+    if (currentPage !== 'home') {
+      navigateTo('home');
+      // Wait for navigation to complete, then scroll
+      setTimeout(() => {
+        const ctaSection = document.getElementById('contact');
+        ctaSection?.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+    } else {
+      // If already on home page, scroll directly
+      const ctaSection = document.getElementById('contact');
+      ctaSection?.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const showMegaMenu = () => {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
@@ -149,7 +165,10 @@ export function Header() {
             </div>
             
             {/* Desktop CTA Button */}
-            <Button className="hidden md:flex bg-green-600 hover:bg-green-700 text-white">
+            <Button 
+              onClick={scrollToContactForm}
+              className="hidden md:flex bg-green-600 hover:bg-green-700 text-white"
+            >
               {t('header.startYourGrowthJourney')}
             </Button>
             
@@ -299,7 +318,10 @@ export function Header() {
                   <div className="p-6 border-t border-gray-200 mt-auto">
                     <Button 
                       className="w-full bg-green-600 hover:bg-green-700 text-white"
-                      onClick={() => setIsMobileMenuOpen(false)}
+                      onClick={() => {
+                        setIsMobileMenuOpen(false);
+                        scrollToContactForm();
+                      }}
                     >
                       {t('header.startYourGrowthJourney')}
                     </Button>
