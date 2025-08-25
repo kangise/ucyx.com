@@ -457,7 +457,7 @@ export function SellToWorldPage() {
               <Button 
                 onClick={() => window.open('mailto:services@ucyx.com', '_blank')}
                 variant="outline"
-                className="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-12 py-4 text-xl font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+                className="border-2 border-green-600 bg-white text-green-600 hover:bg-green-600 hover:text-white px-12 py-4 text-xl font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 <Globe className="mr-3 w-6 h-6" />
                 联系我们
