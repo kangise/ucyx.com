@@ -25,7 +25,8 @@ import {
   Star,
   Shield,
   Headphones,
-  ChevronRight
+  ChevronRight,
+  Calendar
 } from 'lucide-react';
 
 export function SellToWorldPage() {
@@ -432,240 +433,27 @@ export function SellToWorldPage() {
         </div>
       </section>
 
-      {/* Contact Form */}
+      {/* Consultation Booking */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-              {t('sellToWorld.cta.title')}
+              开始您的全球扩张
             </h2>
             <p className="text-xl text-gray-600">
-              {t('sellToWorld.cta.subtitle')}
+              告诉我们您的业务情况，我们将为您的全球成功制定定制化增长策略
             </p>
           </div>
 
-          <Card className="border-2 border-gray-100">
-            <CardContent className="p-8">
-              <form onSubmit={handleSubmit} className="space-y-6">
-                {/* Basic Information */}
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <Label htmlFor="name" className="text-base font-medium">{t('sellToWorld.form.fields.name')} *</Label>
-                    <Input
-                      id="name"
-                      value={formData.name}
-                      onChange={(e) => updateFormData('name', e.target.value)}
-                      className="mt-1"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <Label htmlFor="email" className="text-base font-medium">{t('sellToWorld.form.fields.email')} *</Label>
-                    <Input
-                      id="email"
-                      type="email"
-                      value={formData.email}
-                      onChange={(e) => updateFormData('email', e.target.value)}
-                      className="mt-1"
-                      required
-                    />
-                  </div>
-                </div>
-
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <Label htmlFor="company" className="text-base font-medium">{t('sellToWorld.form.fields.companyName')} *</Label>
-                    <Input
-                      id="company"
-                      value={formData.company}
-                      onChange={(e) => updateFormData('company', e.target.value)}
-                      className="mt-1"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <Label htmlFor="phone" className="text-base font-medium">{t('sellToWorld.form.fields.phone')}</Label>
-                    <Input
-                      id="phone"
-                      value={formData.phone}
-                      onChange={(e) => updateFormData('phone', e.target.value)}
-                      className="mt-1"
-                    />
-                  </div>
-                </div>
-
-                {/* Business Information */}
-                <div>
-                  <Label htmlFor="category" className="text-base font-medium">{t('sellToWorld.form.fields.productCategory')} *</Label>
-                  <Select onValueChange={(value) => updateFormData('category', value)} required>
-                    <SelectTrigger className="mt-1">
-                      <SelectValue placeholder={t('sellToWorld.form.placeholders.productCategory')} />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="electronics">{t('sellToWorld.form.options.categories.electronics')}</SelectItem>
-                      <SelectItem value="fashion">{t('sellToWorld.form.options.categories.fashion')}</SelectItem>
-                      <SelectItem value="home">{t('sellToWorld.form.options.categories.home')}</SelectItem>
-                      <SelectItem value="health">{t('sellToWorld.form.options.categories.health')}</SelectItem>
-                      <SelectItem value="sports">{t('sellToWorld.form.options.categories.sports')}</SelectItem>
-                      <SelectItem value="automotive">{t('sellToWorld.form.options.categories.automotive')}</SelectItem>
-                      <SelectItem value="books">{t('sellToWorld.form.options.categories.books')}</SelectItem>
-                      <SelectItem value="toys">{t('sellToWorld.form.options.categories.toys')}</SelectItem>
-                      <SelectItem value="food">{t('sellToWorld.form.options.categories.food')}</SelectItem>
-                      <SelectItem value="other">{t('sellToWorld.form.options.categories.other')}</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <div>
-                  <Label className="text-base font-medium">{t('sellToWorld.form.fields.mainObjective')} *</Label>
-                  <RadioGroup 
-                    value={formData.mainObjective} 
-                    onValueChange={(value) => updateFormData('mainObjective', value)}
-                    className="mt-2"
-                  >
-                    <div className="flex items-center space-x-2">
-                      <RadioGroupItem value="enter-new-markets" id="enter-new-markets" />
-                      <Label htmlFor="enter-new-markets">{t('sellToWorld.form.options.goals.newMarkets')}</Label>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <RadioGroupItem value="increase-sales" id="increase-sales" />
-                      <Label htmlFor="increase-sales">{t('sellToWorld.form.options.goals.increaseSales')}</Label>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <RadioGroupItem value="optimize-operations" id="optimize-operations" />
-                      <Label htmlFor="optimize-operations">{t('sellToWorld.form.options.goals.optimizeOperations')}</Label>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <RadioGroupItem value="build-brand" id="build-brand" />
-                      <Label htmlFor="build-brand">{t('sellToWorld.form.options.goals.buildBrand')}</Label>
-                    </div>
-                  </RadioGroup>
-                </div>
-
-                <div>
-                  <Label className="text-base font-medium">{t('sellToWorld.form.fields.serviceType')} *</Label>
-                  <RadioGroup 
-                    value={formData.serviceType} 
-                    onValueChange={(value) => updateFormData('serviceType', value)}
-                    className="mt-2"
-                  >
-                    <div className="flex items-center space-x-2">
-                      <RadioGroupItem value="proxy-sales" id="proxy-sales" />
-                      <Label htmlFor="proxy-sales">{t('sellToWorld.form.options.serviceTypes.proxySales')}</Label>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <RadioGroupItem value="full-service" id="full-service" />
-                      <Label htmlFor="full-service">{t('sellToWorld.form.options.serviceTypes.fullService')}</Label>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <RadioGroupItem value="consultation" id="consultation" />
-                      <Label htmlFor="consultation">{t('sellToWorld.form.options.serviceTypes.consultation')}</Label>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <RadioGroupItem value="not-sure" id="not-sure" />
-                      <Label htmlFor="not-sure">{t('sellToWorld.form.options.serviceTypes.notSure')}</Label>
-                    </div>
-                  </RadioGroup>
-                </div>
-
-                <div>
-                  <Label className="text-base font-medium">{t('sellToWorld.form.fields.platforms')}</Label>
-                  <div className="mt-2 space-y-2">
-                    {[
-                      { key: 'amazon', label: t('sellToWorld.form.options.platforms.amazon') },
-                      { key: 'ebay', label: t('sellToWorld.form.options.platforms.ebay') },
-                      { key: 'shopify', label: t('sellToWorld.form.options.platforms.shopify') },
-                      { key: 'woocommerce', label: t('sellToWorld.form.options.platforms.woocommerce') },
-                      { key: 'magento', label: t('sellToWorld.form.options.platforms.magento') },
-                      { key: 'ownWebsite', label: t('sellToWorld.form.options.platforms.ownWebsite') },
-                      { key: 'physicalStores', label: t('sellToWorld.form.options.platforms.physicalStores') },
-                      { key: 'none', label: t('sellToWorld.form.options.platforms.none') }
-                    ].map(platform => (
-                      <div key={platform.key} className="flex items-center space-x-2">
-                        <Checkbox
-                          id={platform.key}
-                          checked={formData.currentPlatforms.includes(platform.key)}
-                          onCheckedChange={() => toggleArrayValue('currentPlatforms', platform.key)}
-                        />
-                        <Label htmlFor={platform.key}>{platform.label}</Label>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                <div>
-                  <Label htmlFor="monthlyRevenue" className="text-base font-medium">{t('sellToWorld.form.fields.revenue')}</Label>
-                  <Select onValueChange={(value) => updateFormData('monthlyRevenue', value)}>
-                    <SelectTrigger className="mt-1">
-                      <SelectValue placeholder={t('sellToWorld.form.placeholders.revenue')} />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="under10k">{t('sellToWorld.form.options.revenue.under10k')}</SelectItem>
-                      <SelectItem value="10k-50k">{t('sellToWorld.form.options.revenue.10k-50k')}</SelectItem>
-                      <SelectItem value="50k-100k">{t('sellToWorld.form.options.revenue.50k-100k')}</SelectItem>
-                      <SelectItem value="100k-500k">{t('sellToWorld.form.options.revenue.100k-500k')}</SelectItem>
-                      <SelectItem value="500k-1m">{t('sellToWorld.form.options.revenue.500k-1m')}</SelectItem>
-                      <SelectItem value="over1m">{t('sellToWorld.form.options.revenue.over1m')}</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <div>
-                  <Label className="text-base font-medium">{t('sellToWorld.form.fields.markets')}</Label>
-                  <div className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-2">
-                    {[
-                      { key: 'us', label: t('sellToWorld.form.options.markets.us') },
-                      { key: 'canada', label: t('sellToWorld.form.options.markets.canada') },
-                      { key: 'uk', label: t('sellToWorld.form.options.markets.uk') },
-                      { key: 'germany', label: t('sellToWorld.form.options.markets.germany') },
-                      { key: 'france', label: t('sellToWorld.form.options.markets.france') },
-                      { key: 'japan', label: t('sellToWorld.form.options.markets.japan') },
-                      { key: 'australia', label: t('sellToWorld.form.options.markets.australia') },
-                      { key: 'other', label: t('sellToWorld.form.options.markets.other') }
-                    ].map(market => (
-                      <div key={market.key} className="flex items-center space-x-2">
-                        <Checkbox
-                          id={market.key}
-                          checked={formData.targetMarkets.includes(market.key)}
-                          onCheckedChange={() => toggleArrayValue('targetMarkets', market.key)}
-                        />
-                        <Label htmlFor={market.key} className="text-sm">{market.label}</Label>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                <div>
-                  <Label htmlFor="additionalInfo" className="text-base font-medium">{t('sellToWorld.form.fields.message')}</Label>
-                  <Textarea
-                    id="additionalInfo"
-                    value={formData.additionalInfo}
-                    onChange={(e) => updateFormData('additionalInfo', e.target.value)}
-                    placeholder={t('sellToWorld.form.placeholders.additionalInfo')}
-                    className="mt-1 min-h-[100px]"
-                  />
-                </div>
-
-                <Button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="w-full bg-green-600 hover:bg-green-700 text-white py-3 text-lg"
-                >
-                  {isSubmitting ? (
-                    <>
-                      <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
-                      Submitting...
-                    </>
-                  ) : (
-                    <>
-                      {t('sellToWorld.form.buttons.startExpansion')}
-                      <ArrowRight className="ml-2 w-4 h-4" />
-                    </>
-                  )}
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
+          <div className="text-center">
+            <Button 
+              onClick={() => window.open('https://calendly.com/kanjiang/cooperation', '_blank')}
+              className="bg-green-600 hover:bg-green-700 text-white px-12 py-4 text-xl font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <Calendar className="mr-3 w-6 h-6" />
+              预约咨询
+            </Button>
+          </div>
         </div>
       </section>
 

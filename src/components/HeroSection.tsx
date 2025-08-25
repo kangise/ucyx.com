@@ -32,10 +32,20 @@ export function HeroSection() {
               {t('hero.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-green-600 hover:bg-green-700 text-white h-14 px-8 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <Button 
+                onClick={() => {
+                  const ctaSection = document.getElementById('contact');
+                  ctaSection?.scrollIntoView({ behavior: 'smooth' });
+                }}
+                className="bg-green-600 hover:bg-green-700 text-white h-14 px-8 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              >
                 {t('hero.cta')}
               </Button>
-              <Button variant="outline" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-gray-900 backdrop-blur-sm h-14 px-8 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <Button 
+                onClick={() => window.open('https://calendly.com/kanjiang/cooperation', '_blank')}
+                variant="outline" 
+                className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-gray-900 backdrop-blur-sm h-14 px-8 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+              >
                 {t('hero.watchDemo')}
               </Button>
             </div>

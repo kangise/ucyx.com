@@ -66,10 +66,7 @@ export function UCMMMPage() {
               </div>
             </div>
             <div className="flex justify-center">
-              <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg">
-                {t('common.getStarted')}
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
+              {/* Hero CTA button removed as requested */}
             </div>
           </div>
         </div>
@@ -217,9 +214,12 @@ export function UCMMMPage() {
             {t('ucMmm.cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 text-lg font-semibold">
-              {t('ucMmm.cta.button')}
-              <ArrowRight className="ml-2 w-5 h-5" />
+            <Button 
+              onClick={() => window.open('https://calendly.com/kanjiang/cooperation', '_blank')}
+              className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 text-lg font-semibold"
+            >
+              <Calendar className="mr-2 w-5 h-5" />
+              预约咨询
             </Button>
           </div>
         </div>

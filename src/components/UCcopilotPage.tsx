@@ -64,13 +64,7 @@ export function UCcopilotPage() {
               </div>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 text-lg"
-                onClick={() => navigateTo('partnership')}
-              >
-                {t('uccopilot.growthCta.primaryButton')}
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
+              {/* Hero CTA button removed as requested */}
             </div>
           </div>
         </div>
@@ -163,13 +157,9 @@ export function UCcopilotPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
-              className="bg-white text-green-600 hover:bg-gray-100 px-8 py-3 text-lg font-semibold"
-              onClick={() => navigateTo('partnership')}
+              onClick={() => window.open('https://calendly.com/kanjiang/cooperation', '_blank')}
+              className="bg-white text-green-600 hover:bg-gray-100 border-2 border-white px-8 py-3 text-lg font-semibold"
             >
-              {t('uccopilot.growthCta.primaryButton')}
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
-            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 text-lg">
               <Calendar className="mr-2 w-5 h-5" />
               {t('uccopilot.growthCta.secondaryButton')}
             </Button>
