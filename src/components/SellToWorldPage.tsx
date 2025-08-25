@@ -446,13 +446,23 @@ export function SellToWorldPage() {
           </div>
 
           <div className="text-center">
-            <Button 
-              onClick={() => window.open('https://calendly.com/kanjiang/cooperation', '_blank')}
-              className="bg-green-600 hover:bg-green-700 text-white px-12 py-4 text-xl font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
-            >
-              <Calendar className="mr-3 w-6 h-6" />
-              预约咨询
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button 
+                onClick={() => window.open('https://calendly.com/kanjiang/cooperation', '_blank')}
+                className="bg-green-600 hover:bg-green-700 text-white px-12 py-4 text-xl font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                <Calendar className="mr-3 w-6 h-6" />
+                预约咨询
+              </Button>
+              <Button 
+                onClick={() => window.open('mailto:services@ucyx.com', '_blank')}
+                variant="outline"
+                className="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-12 py-4 text-xl font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                <Globe className="mr-3 w-6 h-6" />
+                联系我们
+              </Button>
+            </div>
           </div>
         </div>
       </section>

@@ -163,6 +163,14 @@ export function UCcopilotPage() {
               <Calendar className="mr-2 w-5 h-5" />
               {t('uccopilot.growthCta.secondaryButton')}
             </Button>
+            <Button 
+              onClick={() => window.open('mailto:services@ucyx.com', '_blank')}
+              variant="outline"
+              className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-3 text-lg font-semibold"
+            >
+              <HandHeart className="mr-2 w-5 h-5" />
+              联系我们
+            </Button>
           </div>
         </div>
       </section>

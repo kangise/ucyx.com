@@ -221,6 +221,14 @@ export function UCMMMPage() {
               <Calendar className="mr-2 w-5 h-5" />
               预约咨询
             </Button>
+            <Button 
+              onClick={() => window.open('mailto:services@ucyx.com', '_blank')}
+              variant="outline"
+              className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg font-semibold"
+            >
+              <Globe className="mr-2 w-5 h-5" />
+              联系我们
+            </Button>
           </div>
         </div>
       </section>
